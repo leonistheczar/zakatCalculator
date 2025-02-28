@@ -1,0 +1,41 @@
+# import time
+# # Zakat Calculator Project
+# print("")
+# print("-----Zakat Calculator Project------")
+# print("")
+
+# def zakatAmount():
+#     # Nisab for Zakat as of 25th Feb, 2025
+#     # Gold Nisab = 87.48 grams (7.5 tolas) = 87.48 * 26792 = 2,343,764.16 PKR
+#     # Silver Nisab = 612.36 grams (52.5 tolas) = 612.36 * 291.84  = 178711.14 PKR
+
+#     goldNisab = 2343764 # PKR
+#     silverNisab = 178711 # PKR
+#     print("Check your eligibility for Zakat: ")
+#     cash = int(input("Enter the value of cash in hand: "))
+#     gold = int(input("Enter the value of gold in possession: "))
+#     silver = int(input("Enter the value of silver in possession: "))
+#     companyAssets = int(input("Enter the value of stocks or shares in possession: "))
+#     agriProducts = int(input("Enter the value of agricultural products in possession: "))
+#     land = int(input("Enter the value of land in possession for sale: "))
+
+#     total = cash + gold + silver + companyAssets + agriProducts + land
+#     print("")
+#     print("Calculating total assets...")
+#     time.sleep(2)
+#     print(f"Total assets: {total:,} PKR")  
+
+#     if total >= silverNisab:
+#         print("")
+#         print("Please wait...")
+#         time.sleep(2)
+#         print("You are eligible to pay Zakat.")
+#         print("")
+#         print("Calculating Zakat now...")
+#         time.sleep(2)
+#         zakat = total * 0.025
+#         print(f"Zakat amount to be paid: {zakat:,} PKR")
+#     else:
+#         print("You are not eligible to pay Zakat as your wealth is lower than the Nisab threshold.")
+
+# zakatAmount()

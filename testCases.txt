@@ -1,0 +1,54 @@
+Algorithm for Zakat Calculator Project
+The following algorithm outlines the steps for calculating Zakat based on a user's assets, liabilities, and applicable Islamic rules.
+
+🔹 Step 1: Input Collection
+Prompt user to enter assets:
+
+Cash & Bank Savings
+Gold & Silver (grams or value)
+Stocks & Investments
+Land for Sale
+Agricultural Produce & Livestock
+Cryptocurrency & Digital Assets
+Rental Income Savings
+Prompt user to enter liabilities:
+
+Short-term debts (loans due within a year)
+Other allowable deductions (if applicable per their madhab)
+🔹 Step 2: Nisab Calculation
+Determine Nisab threshold:
+
+Ask user if they want to use Gold (85g) or Silver (595g) as the reference.
+Convert to currency using real-time or predefined values.
+Compare total Zakatable assets with Nisab:
+
+If Total Assets < Nisab, no Zakat is due → End Program.
+If Total Assets ≥ Nisab, proceed to Zakat calculation.
+
+🔹 Step 3: Zakat Calculation
+Apply Zakat formula (2.5%) on Zakatable assets:
+
+Zakat Due = 2.5 % × (Total Zakatable Assets−Deductible Liabilities)
+Zakat Due=2.5%×(Total Zakatable Assets−Deductible Liabilities)
+Special Cases:
+
+Gold Jewelry: Check if Zakat applies (depends on madhab).
+Stocks: Ask if for resale (full value) or investment (only dividends or zakatable portion).
+Land: If for resale, apply 2.5% on current market value.
+Agriculture: Apply 5% or 10% based on irrigation method.
+Livestock: Check Zakat eligibility based on herd size.
+
+🔹 Step 4: Display Results
+Show Total Zakat Due along with a breakdown.
+Provide guidance on payment methods (to poor, eligible recipients).
+🔹 Step 5: Additional Features (Optional)
+
+Save calculation history for future reference.
+Allow real-time Nisab updates using API (gold/silver prices).
+Support multiple madhab opinions and let users choose preferences.
+
+📌 Summary of the Algorithm
+1️⃣ Collect User Inputs (Assets & Liabilities)
+2️⃣ Check if Wealth is Above Nisab
+3️⃣ Apply Zakat Rules & Calculate Total Zakat Due
+4️⃣ Display Results & Provide Payment Guidance
